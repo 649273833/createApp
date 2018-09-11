@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0.4rem;//  等同于font-size: 20px;
+
+}
+.loadingStyle{
+  background:#fff;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index:999;
+  text-align:center;
+  img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1001;
+    transform: translate(-50%,-50%);
+  }
+}
+.nav {
+  a{
+    color: blue;
+    margin-right: 10px;
+    &.selected{
+      color: #f00000;
+    }
+  }
+}
+

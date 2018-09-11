@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav {
+    text-align: center;
+}
+.nav a{
+  color: blue;
+  margin-right: 10px;
+}
+.nav a.selected{
+   color: #f00000;
+ }
