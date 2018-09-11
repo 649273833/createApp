@@ -52,7 +52,7 @@ class Edit extends React.Component{
       'author':author,
       'zoomimg':zoomimg
     })
-      instance.post('https://wx.zzwio.com/api/news_add.php',data)
+      instance.post('',data)
         .then((res)=>{
           if (res.status === 200){
             this.setState({
