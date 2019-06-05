@@ -27,10 +27,10 @@ gulp.task(webpackFile, function () {
   return gulp.src(webpackFile+'/**')
     .pipe(vsftp({
       host: '118.24.165.123',
-      user: 'root',
-      pass: 'zzw262620',
+      user: 'xx',
+      pass: 'xxx',
       cleanFiles: true,
-      port:11240,
+      port:xx,
       remotePath: '/www/wwwroot/wx.zzwio.com/',
     }))
 });
