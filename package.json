@@ -94,7 +94,7 @@
     "braft-editor": "^1.9.8",
     "bundle-loader": "^0.5.6",
     "css-loader": "^0.28.11",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-vsftp": "^0.7.8",
     "gulp-zip": "^4.1.0",
     "moment-kirk": "^1.0.1",
